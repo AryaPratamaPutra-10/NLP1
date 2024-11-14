@@ -10,13 +10,11 @@
 
 <div>
 <h2>Dokumentasi Project</h2>
-<ol>
   <li><strong>Persiapan Data</strong>: Mempersiapkan dataset berupa gambar anime yang diambil dari kaggle berupa file json untuk pelatihan</li>
   <li><strong>Menggunakan Model GAN</strong>: Menggunakan 2 komponen dari GAN yaitu Generator dan Diskriminator dan menguraikan Loop training GAN</li>
   <li><strong>Arsitektur DCGAN</strong>: Menambahkan arsitektur untuk Deep Convolutional GAN, menyempurnakan GAN dengan lapisan CNN untuk meningkatkan kualitas pembuatan gambar</li>
   <li><strong>Training</strong>: Mengimplementasikan loop pelatihan menggunakan kerangka Keras, termasuk pembaruan batch, pelacakan kehilangan, dan pengambilan sampel gambar yang dihasilkan untuk masukan selama pelatihan</li>
   <li><strong>Eksplorasi Ruang Laten</strong>: Eksplorasi dengan berbagai vektor ruang laten untuk mengontrol dan menyempurnakan gaya karakter dan ekspresi yang dihasilkan oleh model</li>
-</ol>
 </div>
 
 <h2>Teknologi yang Digunakan 🛠️</h2>
