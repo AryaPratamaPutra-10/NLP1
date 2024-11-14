@@ -2,55 +2,6 @@
 
 
 
-<h2>Setup </h2>
-
-  
-  <li>
-    <ul>
-          <li>
-            <a href="https://github.com/tensorflow/tensorflow/issues/60216#:~:text=Numpy%20was%20pinned%20to%20%3C1.24%20since%20it%20affected%20few%20tests%20on%20Ragged%20Tensors.%20Agree%20that%20we%20should%20fix%20those%20tests%20and%20remove%20the%20upperbound%20in%20future%20releases.">NumPy</a></br>
-            <pre><code>conda install numpy==1.21.4</pre></code>
-          </li>
-          <li>
-            <a href="https://matplotlib.org/devdocs/devel/min_dep_policy.html#:~:text=of%20the%20dependencies.-,Matplotlib,1.23.0,-3.8">Matplotlib</a></br>
-            <pre><code>conda install matplotlib==3.5.0</pre></code>
-          </li>
-          <li>
-            <a href="https://pandas.pydata.org/pandas-docs/version/2.1.3/getting_started/install.html#:~:text=Required%20dependencies">Pandas</a></br>
-            <pre><code>conda install pandas==1.3.4</pre></code>
-          </li>
-          <li>
-            Scikit Learn</br>
-            <pre><code>conda install scikit-learn</pre></code>
-          </li>
-          <li>
-            seaborn</br>
-            <pre><code>conda install seaborn=0.9.0</pre></code>
-          </li>
-          <li>
-            IPyKernel</br>
-            <pre><code>conda install ipykernel</pre></code>
-          </li>
-          <li>
-            Skills Network</br>
-            <pre><code>pip install skillsnetwork</pre></code>
-          </li>
-        </ul>
-        <li>
-            The following required libraries are not pre-installed in the Skills Network Labs environment. You will need to run the following cell to install them:</br>
-            <pre><code>pip install tqdm skillsnetwork</pre></code>
-          </li>
-    </ul>
-  </li>
-</ol>
-</br>
-<span>Remember to use <code>dcgan-anime</code> kernel when you try to run the notebooks.</span>
-
-
-</br>
-Note : If you want to use TPU, copy and run this code first <pre><code>!pip install tensorflow==2.11.0 protobuf==3.19.0
-</code></pre>before you jump into another line.</span>
-
 <h2>Dokumentasi Project</h2>
 <ol>
   <li><strong>Persiapan Data</strong>: Mempersiapkan dataset berupa gambar anime yang diambil dari kaggle berupa file json untuk pelatihan</li>
