@@ -1,5 +1,5 @@
-<h1 align="center">Creating anime characters using Deep Convolutional Generative Adversarial Networks (DCGANs) and Keras 🌌✨</h1>
-<p align="center">This repository demonstrates the creation of anime-style characters using Deep Convolutional Generative Adversarial Networks (DCGANs) with Keras. It covers GAN fundamentals, data handling, model building, and training, focusing on generating unique, game-ready characters.</p>
+<h1 align="center">Creating anime characters using Deep Convolutional Generative Adversarial Networks (DCGANs) and Keras </h1>
+
 
 <h2>Content Overview 📚</h2>
 <ol>
