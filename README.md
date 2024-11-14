@@ -6,7 +6,7 @@
 
   
   <li>
-    
+    <ul>
           <li>
             <a href="https://github.com/tensorflow/tensorflow/issues/60216#:~:text=Numpy%20was%20pinned%20to%20%3C1.24%20since%20it%20affected%20few%20tests%20on%20Ragged%20Tensors.%20Agree%20that%20we%20should%20fix%20those%20tests%20and%20remove%20the%20upperbound%20in%20future%20releases.">NumPy</a></br>
             <pre><code>conda install numpy==1.21.4</pre></code>
