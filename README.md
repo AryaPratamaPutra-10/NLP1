@@ -1,16 +1,8 @@
 <h1 align="center">Creating anime characters using Deep Convolutional Generative Adversarial Networks (DCGANs) and Keras </h1>
 
 
-<h2>Content Overview 📚</h2>
-<ol>
-  <li><strong>Objectives 🎯</strong> - Learn to generate anime-style characters using DCGANs, useful in applications like creating unique avatars in games.</li>
-  <li><strong>Basic Generative Adversarial Networks (GANs) 🧩</strong> - Introduction to GANs, including a toy dataset example to demonstrate the generator model, GAN loss function, and training steps.</li>
-  <li><strong>Deep Convolutional GANs (DCGANs) 🖼️</strong> - Detailed steps for implementing DCGANs on anime character images, including loading the dataset, setting up the data generator, and defining the generator and discriminator models.</li>
-  <li><strong>Training DCGANs 🔄</strong> - Walkthrough of the training process for DCGANs, covering loss functions, optimizers, and training steps required to generate anime images.</li>
-  <li><strong>Exploring Latent Variables 🔍</strong> - Exercises to experiment with latent variables and observe their effects on generated images, which can help refine character generation.</li>
-</ol>
 
-<h2>Setup ⚙️</h2>
+<h2>Setup </h2>
 
 <h3>
   <div style="display: flex; align-items: center;">
