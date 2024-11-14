@@ -17,16 +17,15 @@
   <li><strong>Eksplorasi Ruang Laten</strong>: Eksplorasi dengan berbagai vektor ruang laten untuk mengontrol dan menyempurnakan gaya karakter dan ekspresi yang dihasilkan oleh model</li>
 </div>
 
+<div>
 <h2>Teknologi yang Digunakan 🛠️</h2>
-<ul>
 <li><strong>Python</strong>: Bahasa pemrograman untuk mengimplementasikan model DCGAN dan pipeline pelatihan
 <li><strong>Keras dengan TensorFlow Backend</strong>: Digunakan untuk membangun dan melatih model DCGAN, memanfaatkan kemampuan GPU TensorFlow untuk pembelajaran mendalam yang efisien.
 <li><strong>NumPy</strong>: Dasar untuk menangani operasi larik dan mengelola transformasi dataset.
 <li><strong>Matplotlib</strong>: Digunakan untuk memvisualisasikan gambar yang dihasilkan pada berbagai tahap pelatihan untuk melacak kemajuan dan hasil.
 <li><strong>Anaconda</strong>: Menyediakan lingkungan yang terisolasi untuk mengelola ketergantungan dan versi, memastikan reproduktifitas di berbagai sistem yang berbeda.
 <li><strong>Google Colab (opsional)</strong>: Menawarkan sumber daya GPU gratis untuk mempercepat pelatihan model, ideal untuk pengguna tanpa akses GPU lokal.</li> <li>
-</ul>
-
+</div>
 
 
 <h2>Analisis Teknologi Yang Digunakan 🧩</h2>
