@@ -17,20 +17,9 @@
 </h3>
 
 <ol>
-  <li><strong>Install Anaconda</strong> - Download Anaconda from <a href="https://www.anaconda.com/download">Anaconda Download</a> and install it on your system.</li>
-  <li><strong>(Option 1) Use the valselt's Anaconda Configuration</strong>
-    <ul>
-      <li>Launch the Anaconda Navigator application.</li>
-      <li>Click on the "Environments" tab on the left sidebar.</li>
-      <li>Before importing configuration, download the <code><a href = "https://github.com/valselt/valseltlibrary/blob/main/REQUIREMENTS/dcgan-anime.yaml">dcgan-anime.yaml</a></code> from REQUIREMENTS folder first.</li>
-      <li>Click "Import" at the bottom left.</li>
-      <li>Click "Import from Local Drive".</li>
-      <li>Click on the folder icon, and choose <code>dcgan-anime.yaml</code> you download earlier.</li>
-      <li>Name the environment <code>dcgan-anime</code>.</li>
-    </ul>
-  </li>
+
   
-  <li><strong>(Option 2) Build it yourself!</strong>
+  <li>
     <ul>
       <li><strong>Create a New Environment</strong>
       <li>Click on the "Environments" tab on the left sidebar.</li>
