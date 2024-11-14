@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
 <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white">
 
-
+<div>
 <h2>Dokumentasi Project</h2>
 <ol>
   <li><strong>Persiapan Data</strong>: Mempersiapkan dataset berupa gambar anime yang diambil dari kaggle berupa file json untuk pelatihan</li>
@@ -17,6 +17,7 @@
   <li><strong>Training</strong>: Mengimplementasikan loop pelatihan menggunakan kerangka Keras, termasuk pembaruan batch, pelacakan kehilangan, dan pengambilan sampel gambar yang dihasilkan untuk masukan selama pelatihan</li>
   <li><strong>Eksplorasi Ruang Laten</strong>: Eksplorasi dengan berbagai vektor ruang laten untuk mengontrol dan menyempurnakan gaya karakter dan ekspresi yang dihasilkan oleh model</li>
 </ol>
+</div>
 
 <h2>Teknologi yang Digunakan 🛠️</h2>
 <ul>
