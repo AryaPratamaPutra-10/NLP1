@@ -83,15 +83,12 @@
 </br>
 <span>Remember to use <code>dcgan-anime</code> kernel when you try to run the notebooks.</span>
 
-<h3>Google Colab ☁️</h3>
-<span>All of the requirements needed for this notebook are already installed inside Google Colab by Default (TensorFlow and Hugging Face). In order to speed up your process, change Google Colab runtime from <code>CPU</code> to <code>GPU</code> or <code>TPU</code>. For the tutorial on how to change the runtime click <a href="https://www.geeksforgeeks.org/how-to-use-google-colab/#:~:text=Change%20Runtime%20Environment%3A%20Click%20the%20%E2%80%9CRuntime%E2%80%9D%20dropdown%20menu.%20Select%20%E2%80%9CChange%20runtime%20type%E2%80%9D%20.%20Select%20python2%20or%203%20from%20the%20%E2%80%9CRuntime%20type%E2%80%9D%20dropdown%20menu.">here</a>
 
 </br>
 Note : If you want to use TPU, copy and run this code first <pre><code>!pip install tensorflow==2.11.0 protobuf==3.19.0
 </code></pre>before you jump into another line.</span>
 
-<h2>Documentation Project</h2>
-<p>This project is organized as follows:</p>
+<h2>Dokumentasi Project</h2>
 <ol>
   <li><strong>Persiapan Data</strong>: Mempersiapkan dataset berupa gambar anime yang diambil dari kaggle berupa file json untuk pelatihan</li>
   <li><strong>Menggunakan Model GAN</strong>: Menggunakan 2 komponen dari GAN yaitu Generator dan Diskriminator dan menguraikan Loop training GAN</li>
@@ -100,32 +97,29 @@ Note : If you want to use TPU, copy and run this code first <pre><code>!pip inst
   <li><strong>Eksplorasi Ruang Laten</strong>: Eksplorasi dengan berbagai vektor ruang laten untuk mengontrol dan menyempurnakan gaya karakter dan ekspresi yang dihasilkan oleh model</li>
 </ol>
 
-<h2>Technologies Used 🛠️</h2>
-<p>This project employs several key tools and libraries:</p>
+<h2>Teknologi yang Digunakan 🛠️</h2>
 <ul>
-  <li><strong>Python</strong>: Core programming language for implementing the DCGAN model and training pipeline.</li>
-  <li><strong>Keras with TensorFlow Backend</strong>: Used to construct and train the DCGAN model, leveraging TensorFlow’s GPU capabilities for efficient deep learning.</li>
-  <li><strong>NumPy</strong>: Fundamental for handling array operations and managing dataset transformations.</li>
-  <li><strong>Matplotlib</strong>: Used for visualizing generated images at different training stages to track progress and outcomes.</li>
-  <li><strong>Anaconda</strong>: Provides an isolated environment to manage dependencies and versions, ensuring reproducibility across different systems.</li>
-  <li><strong>Google Colab (optional)</strong>: Offers free GPU resources to accelerate model training, ideal for users without local GPU access.</li>
+<li><strong>Python</strong>: Bahasa pemrograman untuk mengimplementasikan model DCGAN dan pipeline pelatihan
+<li><strong>Keras dengan TensorFlow Backend</strong>: Digunakan untuk membangun dan melatih model DCGAN, memanfaatkan kemampuan GPU TensorFlow untuk pembelajaran mendalam yang efisien.
+<li><strong>NumPy</strong>: Dasar untuk menangani operasi larik dan mengelola transformasi dataset.
+<li><strong>Matplotlib</strong>: Digunakan untuk memvisualisasikan gambar yang dihasilkan pada berbagai tahap pelatihan untuk melacak kemajuan dan hasil.
+<li><strong>Anaconda</strong>: Menyediakan lingkungan yang terisolasi untuk mengelola ketergantungan dan versi, memastikan reproduktifitas di berbagai sistem yang berbeda.
+<li><strong>Google Colab (opsional)</strong>: Menawarkan sumber daya GPU gratis untuk mempercepat pelatihan model, ideal untuk pengguna tanpa akses GPU lokal.</li> <li>
 </ul>
 
-<h2>Analysis of Technology Choices 🧩</h2>
+
+
+<h2>Analisis Teknologi Yang Digunakan 🧩</h2>
 <ol>
-  <li><strong>Keras with TensorFlow</strong>: The choice of Keras for model building simplifies DCGAN architecture development, and TensorFlow enables optimized computations, particularly on GPUs.</li>
-  <li><strong>DCGANs</strong>: This GAN variant leverages convolutional layers to enhance the generation of high-quality images, making it ideal for visual tasks like anime character creation.</li>
-  <li><strong>NumPy and Matplotlib</strong>: These libraries facilitate data handling and visualization, which are essential for pre-processing datasets and monitoring the GAN’s training progress.</li>
-  <li><strong>Anaconda and Google Colab</strong>: The use of Anaconda ensures a consistent environment, while Google Colab’s GPU support allows for faster experimentation without requiring a high-end local machine, making it accessible for educational purposes.</li>
+<li><strong>Keras dengan TensorFlow</strong>: Keras berfungsi untuk pembuatan model menyederhanakan pengembangan arsitektur DCGAN, dan TensorFlow memungkinkan komputasi yang dioptimalkan, terutama pada GPU.</li>
+<li><strong>DCGAN</strong>: Varian GAN ini memanfaatkan lapisan konvolusi untuk meningkatkan pembuatan gambar berkualitas tinggi, sehingga cocok untuk tugas-tugas visual seperti pembuatan karakter anime.</li>
+<li><strong>NumPy dan Matplotlib</strong>: Library ini memfasilitasi penanganan data dan visualisasi, yang sangat penting untuk pra-pemrosesan set data dan memantau kemajuan pelatihan GAN.</li>
+<li><strong>Anaconda dan Google Colab</strong>: Penggunaan Anaconda memastikan lingkungan yang konsisten, sementara dukungan GPU Google Colab memungkinkan eksperimen yang lebih cepat tanpa memerlukan mesin lokal kelas atas, sehingga dapat diakses untuk tujuan edukasi.</li>
 </ol>
 
-<h2>Conclusion 📈</h2>
-<p>This project successfully demonstrates how Deep Convolutional Generative Adversarial Networks (DCGANs) can be used to generate high-quality, unique anime characters. By leveraging the convolutional network capabilities within GAN architecture, the model is able to learn the visual patterns and styles of the anime character dataset, producing images that are realistic and consistent with anime aesthetics.</p>
 
-<p>Key takeaways from this project include:</p>
-<ol>
-  <li><strong>Effectiveness of DCGANs in Image Generation:</strong> DCGAN proved to be a powerful method for generating high-resolution, realistic images, especially in this project where the focus was on the anime visual style.</li>
-  <li><strong>In-Depth Understanding of Latent Space:</strong> Exploring the model’s latent space provided insights into how different vector values affect generated images, allowing for adjustments to the style and features of the generated characters.</li>
-  <li><strong>Flexibility and Scalability:</strong> By using Keras and TensorFlow, this project enabled both local development and easy migration to Google Colab for GPU access.</li>
-  <li><strong>Opportunities for Further Development:</strong> This project opens up pathways for further exploration, such as implementing more advanced GAN architectures (e.g., StyleGAN) or experimenting with different model parameters to generate other visual styles.</li>
-</ol>
+
+<h2>Kesimpulan </h2>
+<p>Proyek ini mendemonstrasikan bagaimana Deep Convolutional Generative Adversarial Networks (DCGAN) dapat digunakan untuk menghasilkan karakter anime yang unik dan berkualitas tinggi. Dengan memanfaatkan kemampuan jaringan konvolusional dalam arsitektur GAN, model ini dapat mempelajari pola dan gaya visual dari dataset karakter anime, menghasilkan gambar yang realistis dengan kualitas yang baik </p>
+
+
