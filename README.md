@@ -4,35 +4,9 @@
 
 <h2>Setup </h2>
 
-<h3>
-  <div style="display: flex; align-items: center;">
-    <span>Locally (via Anaconda + Tensorflow)</span>
-        <a href="https://www.anaconda.com/">
-            <img src="https://skillicons.dev/icons?i=anaconda" alt="Anaconda" style="height: 24px; margin-left: 8px;">
-        </a>
-        <a href="https://www.tensorflow.org/install/pip">
-            <img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" style="height: 24px; margin-left: 8px;">
-        </a>
-  </div>
-</h3>
-
-<ol>
-
   
   <li>
-    <ul>
-      <li><strong>Create a New Environment</strong>
-      <li>Click on the "Environments" tab on the left sidebar.</li>
-      <li>Click "Create" at the bottom left.</li>
-      <li>Name the environment <code>dcgan-anime</code> and choose Python version <code>3.10.x</code>.</li>
-      <li>Open Anaconda Prompt</li>
-      <li>Type this on your Anaconda Prompt<pre><code>conda activate dcgan-anime</code></pre></li>
-      <li>Install Tensorflow first :</li>
-        <ul>
-           <li><pre><code>conda install tensorflow</pre></code></li>
-        </ul>
-        <li>Install other dependencies used in this project :</li>
-        <ul>
+    
           <li>
             <a href="https://github.com/tensorflow/tensorflow/issues/60216#:~:text=Numpy%20was%20pinned%20to%20%3C1.24%20since%20it%20affected%20few%20tests%20on%20Ragged%20Tensors.%20Agree%20that%20we%20should%20fix%20those%20tests%20and%20remove%20the%20upperbound%20in%20future%20releases.">NumPy</a></br>
             <pre><code>conda install numpy==1.21.4</pre></code>
