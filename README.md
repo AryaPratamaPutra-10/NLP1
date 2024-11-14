@@ -1,5 +1,12 @@
 <h1 align="center">Creating anime characters using Deep Convolutional Generative Adversarial Networks (DCGANs) and Keras </h1>
 
+<p>Mentee Info</p>
+<p>- Name : Arya Pratama Putra</p>
+<p> - Program : IBM Advance AI @ Infinite Learning </p>
+
+<div align="center">
+<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+<img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white">
 
 
 <h2>Dokumentasi Project</h2>
