@@ -18,7 +18,7 @@
 </div>
 
 <div>
-<h2>Teknologi yang Digunakan 🛠️</h2>
+<h2>Teknologi yang Digunakan </h2>
 <li><strong>Python</strong>: Bahasa pemrograman untuk mengimplementasikan model DCGAN dan pipeline pelatihan
 <li><strong>Keras dengan TensorFlow Backend</strong>: Digunakan untuk membangun dan melatih model DCGAN, memanfaatkan kemampuan GPU TensorFlow untuk pembelajaran mendalam yang efisien.
 <li><strong>NumPy</strong>: Dasar untuk menangani operasi larik dan mengelola transformasi dataset.
@@ -28,7 +28,7 @@
 </div>
 
 
-<h2>Analisis Teknologi Yang Digunakan 🧩</h2>
+<h2>Analisis Teknologi Yang Digunakan </h2>
 <ol>
 <li><strong>Keras dengan TensorFlow</strong>: Keras berfungsi untuk pembuatan model menyederhanakan pengembangan arsitektur DCGAN, dan TensorFlow memungkinkan komputasi yang dioptimalkan, terutama pada GPU.</li>
 <li><strong>DCGAN</strong>: Varian GAN ini memanfaatkan lapisan konvolusi untuk meningkatkan pembuatan gambar berkualitas tinggi, sehingga cocok untuk tugas-tugas visual seperti pembuatan karakter anime.</li>
